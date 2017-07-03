@@ -14,7 +14,7 @@ unzip(temp, "activity.csv")
 activity <- read.csv("activity.csv",header=T)
 unlink(temp)
 ```
-#Part 1: What is the mean total number of steps taken per day
+#Part 1: What is the mean total number of steps taken per day?
 ## Ignore missing values for this part of the assignment
 
 ###A- Calculate the total number of steps taken per day
